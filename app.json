@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "appfinal",
+    "slug": "appfinal",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/app.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.qjbferrer.appfinal"
+    },
+    "web": {
+      "favicon": "./assets/app.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7a1d8c08-dedb-41a3-92bd-d41acf8fd78e"
+      }
+    }
+  }
+}
